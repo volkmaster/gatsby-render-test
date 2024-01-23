@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+const React = require("react");
+const styled = require("styled-components");
 
 const Article = ({ article }) => {
   return (
@@ -13,4 +13,4 @@ const Title = styled.h1`
   color: red;
 `;
 
-export default Article;
+module.exports = Article;
