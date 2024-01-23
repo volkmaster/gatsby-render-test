@@ -7,7 +7,6 @@ export const createPages = async () => {
     article: { title: "Hello World" },
   });
   console.log(element);
-
-  //   const html = renderToString(<Article title="Hello World" />);
-  //   console.log(html);
+  const html = renderToString(element);
+  console.log(html);
 };
